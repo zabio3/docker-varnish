@@ -16,7 +16,7 @@ Compiling Varnish from source
 The varnishd binary is in /usr/local/sbin/varnishd.
 
 ```.docker
-$ docker build -t varnish .
+$ docker build -t docker-varnish .
 ``` 
  
 ### Run
