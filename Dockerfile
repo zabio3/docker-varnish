@@ -20,9 +20,8 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update \
         graphviz \
         autoconf-archive \
         git \
-        ca-certificates
-
-RUN cd /usr/src \
+        ca-certificates \
+    && cd /usr/src \
     && git clone https://github.com/varnishcache/varnish-cache \
     && cd varnish-cache \
     && sh autogen.sh \

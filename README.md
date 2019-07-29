@@ -5,8 +5,8 @@ This is Varnish Cache Docker, the high-performance HTTP accelerator.
 
 Documentation and additional information about Varnish is available on https://www.varnish-cache.org/
  
- - Supported : Varnish 6.0
-    - [Varnish 6.0.0 Documentation](https://varnish-cache.org/docs/6.0/index.html)
+ - Supported : Varnish 6.2
+    - [Varnish 6.2.0 Documentation](https://varnish-cache.org/docs/6.2/index.html)
 
 ### Build the image 
 
